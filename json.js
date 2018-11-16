@@ -344,3 +344,18 @@ var daysLeftThisMonth = totalDaysInMonth - dayOfMonth +1;
 // ourRequest.send();
 
 console.log(memberships[0].membership.description);
+
+// ROUND TO 2 DECIMAL PLACES
+function round(value, decimals) {
+  return Number(Math.round(value+'e'+decimals)+'e-'+decimals);
+}
+
+// PRORATE
+var rate_given = 67;
+var joiners_fee = round(100, 2);
+var prorate = round((rate_given / totalDaysInMonth) * daysLeftThisMonth, 2);
+
+console.log("member rate: " + rate_given.toFixed(2));
+console.log("days left in month: " + daysLeftThisMonth);
+console.log("prorate: " + prorate.toFixed(2));
+console.log("joiners fee: " + joiners_fee.toFixed(2));
