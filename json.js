@@ -1,39 +1,86 @@
 // JSON DATA
 var memberships = [
-	{
-		"membership" : {
-			"category" : "individual",
-			"type" : "adult",
-			"minimum_age" : 19,
-			"maximum_age" : 199,
-			"description" : "Adult members includes anyone 19 years of age and older. Exceptions are college students who reside with their parents through age 23. They must show proof with a current college ID or curriculum.",
-			"monthly_fee" : 67,
-			"joiners_fee" : 100
-		}
-	},
-	{
-		"membership" : {
-			"category" : "individual",
-			"type" : "teen",
-			"description" : "Teen members include anyone age 14 to 18. Anyone age 19 to 23 and are college students who reside with their parents are still considered as teen. They must show proof with a current college ID or curriculum.",
-			"minimum_age" : 14,
-			"maximum_age" : 18,
-			"monthly_fee" : 43,
-			"joiners_fee" : 75
-		}
-	},
-	{
-		"membership" : {
-			"category" : "individual",
-			"type" : "youth",
-			"description" : "Youth members include anyone age 0 to 13.",
-			"minimum_age" : 0,
-			"maximum_age" : 13,
-			"monthly_fee" : 31,
-			"joiners_fee" : 45
-		}
-	}
-]
+  {
+    "category" : "individual",
+    "type" : "adult (age 19+)",
+    "monthly_fee" : 67,
+    "joiners_fee" : 100,
+    "adults" : 1,
+    "children" : 0,
+    "minimum_age" : 19,
+    "maximum_age" : 199
+  },
+  {
+    "category" : "individual",
+    "type" : "teen (age 14 - 18)",
+    "monthly_fee" : 43,
+    "joiners_fee" : 75,
+    "adults" : 0,
+    "children" : 1,
+    "minimum_age" : 14,
+    "maximum_age" : 18
+  },
+  {
+    "category" : "individual",
+    "type" : "youth (age 0 - 13)",
+    "monthly_fee" : 31,
+    "joiners_fee" : 45,
+    "adults" : 0,
+    "children" : 1,
+    "minimum_age" : 0,
+    "maximum_age" : 13
+  },
+  {
+    "category" : "family",
+    "type" : "2 adults only, no children",
+    "monthly_fee" : 102,
+    "joiners_fee" : 150,
+    "adults" : 2,
+    "children" : 0,
+    "minimum_age" : 19,
+    "maximum_age" : 199
+  },
+  {
+    "category" : "family",
+    "type" : "1 adult",
+    "monthly_fee" : 97,
+    "joiners_fee" : 150,
+    "adults" : 1,
+    "children" : 10,
+    "minimum_age" : 19,
+    "maximum_age" : 199
+  },
+  {
+    "category" : "family",
+    "type" : "2 adults",
+    "monthly_fee" : 111,
+    "joiners_fee" : 150,
+    "adults" : 2,
+    "children" : 10,
+    "minimum_age" : 19,
+    "maximum_age" : 199
+  },
+  {
+    "category" : "family",
+    "type" : "3 adults",
+    "monthly_fee" : 141,
+    "joiners_fee" : 150,
+    "adults" : 3,
+    "children" : 10,
+    "minimum_age" : 19,
+    "maximum_age" : 199
+  },
+  {
+    "category" : "family",
+    "type" : "4 adults",
+    "monthly_fee" : 171,
+    "joiners_fee" : 150,
+    "adults" : 4,
+    "children" : 10,
+    "minimum_age" : 19,
+    "maximum_age" : 199
+  },
+];
 
 // DATE INFO
 var today = new Date();				// today's date
