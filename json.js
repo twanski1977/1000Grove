@@ -1,4 +1,4 @@
-// JSON DATA
+// MEMBERSHIP DATA
 var memberships = [
   {
     "category" : "individual",
@@ -81,6 +81,246 @@ var memberships = [
     "maximum_age" : 199
   },
 ];
+
+// SCHOLARSHIP DATA
+var scholarships = [
+  {
+    "mimimum_income" : 68000,
+    "maximum_income" : 199999,
+    "scale" : [
+      {
+        "family_size" : 1,
+        "qualify_rate" : 0
+      },
+      {
+        "family_size" : 2,
+        "qualify_rate" : 0
+      },
+      {
+        "family_size" : 3,
+        "qualify_rate" : 0
+      },
+      {
+        "family_size" : 4,
+        "qualify_rate" : 0
+      },
+      {
+        "family_size" : 5,
+        "qualify_rate" : 0
+      }
+    ]
+  },
+  {
+    "mimimum_income" : 61500,
+    "maximum_income" : 67999,
+    "scale" : [
+      {
+        "family_size" : 1,
+        "qualify_rate" : 0
+      },
+      {
+        "family_size" : 2,
+        "qualify_rate" : 0
+      },
+      {
+        "family_size" : 3,
+        "qualify_rate" : 0
+      },
+      {
+        "family_size" : 4,
+        "qualify_rate" : 0
+      },
+      {
+        "family_size" : 5,
+        "qualify_rate" : .2
+      }
+    ]
+  },
+  {
+    "mimimum_income" : 55000,
+    "maximum_income" : 61499,
+    "scale" : [
+      {
+        "family_size" : 1,
+        "qualify_rate" : 0
+      },
+      {
+        "family_size" : 2,
+        "qualify_rate" : 0
+      },
+      {
+        "family_size" : 3,
+        "qualify_rate" : 0
+      },
+      {
+        "family_size" : 4,
+        "qualify_rate" : .2
+      },
+      {
+        "family_size" : 5,
+        "qualify_rate" : .3
+      }
+    ]
+  },
+  {
+    "mimimum_income" : 48500,
+    "maximum_income" : 54999,
+    "scale" : [
+      {
+        "family_size" : 1,
+        "qualify_rate" : 0
+      },
+      {
+        "family_size" : 2,
+        "qualify_rate" : 0
+      },
+      {
+        "family_size" : 3,
+        "qualify_rate" : .2
+      },
+      {
+        "family_size" : 4,
+        "qualify_rate" : .3
+      },
+      {
+        "family_size" : 5,
+        "qualify_rate" : .3
+      }
+    ]
+  },
+  {
+    "mimimum_income" : 42000,
+    "maximum_income" : 48499,
+    "scale" : [
+      {
+        "family_size" : 1,
+        "qualify_rate" : 0
+      },
+      {
+        "family_size" : 2,
+        "qualify_rate" : .2
+      },
+      {
+        "family_size" : 3,
+        "qualify_rate" : .3
+      },
+      {
+        "family_size" : 4,
+        "qualify_rate" : .3
+      },
+      {
+        "family_size" : 5,
+        "qualify_rate" : .4
+      }
+    ]
+  },
+  {
+    "mimimum_income" : 35000,
+    "maximum_income" : 41999,
+    "scale" : [
+      {
+        "family_size" : 1,
+        "qualify_rate" : .2
+      },
+      {
+        "family_size" : 2,
+        "qualify_rate" : .3
+      },
+      {
+        "family_size" : 3,
+        "qualify_rate" : .3
+      },
+      {
+        "family_size" : 4,
+        "qualify_rate" : .4
+      },
+      {
+        "family_size" : 5,
+        "qualify_rate" : .5
+      }
+    ]
+  },
+  {
+    "mimimum_income" : 29000,
+    "maximum_income" : 35499,
+    "scale" : [
+      {
+        "family_size" : 1,
+        "qualify_rate" : .3
+      },
+      {
+        "family_size" : 2,
+        "qualify_rate" : .3
+      },
+      {
+        "family_size" : 3,
+        "qualify_rate" : .4
+      },
+      {
+        "family_size" : 4,
+        "qualify_rate" : .5
+      },
+      {
+        "family_size" : 5,
+        "qualify_rate" : .5
+      }
+    ]
+  },
+  {
+    "mimimum_income" : 22000,
+    "maximum_income" : 28999,
+    "scale" : [
+      {
+        "family_size" : 1,
+        "qualify_rate" : .4
+      },
+      {
+        "family_size" : 2,
+        "qualify_rate" : .4
+      },
+      {
+        "family_size" : 3,
+        "qualify_rate" : .5
+      },
+      {
+        "family_size" : 4,
+        "qualify_rate" : .5
+      },
+      {
+        "family_size" : 5,
+        "qualify_rate" : .5
+      }
+    ]
+  },
+  {
+    "mimimum_income" : 0,
+    "maximum_income" : 21999,
+    "scale" : [
+      {
+        "family_size" : 1,
+        "qualify_rate" : .5
+      },
+      {
+        "family_size" : 2,
+        "qualify_rate" : .5
+      },
+      {
+        "family_size" : 3,
+        "qualify_rate" : .5
+      },
+      {
+        "family_size" : 4,
+        "qualify_rate" : .5
+      },
+      {
+        "family_size" : 5,
+        "qualify_rate" : .5
+      }
+    ]
+  },
+];
+
+console.log(memberships);
 
 // DATE INFO
 var today = new Date();				// today's date
